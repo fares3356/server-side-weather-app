@@ -1,0 +1,52 @@
+/* Base styles for document */
+body {
+  line-height: 1.5;
+}
+
+/* Toggle class for script.js */
+.hidden {
+  display: none;
+}
+
+/* Header background */
+.navbar {
+  background-color: #4ccc7d;
+}
+
+/* h1 styles */
+.navbar .center {
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+/* Removes pointer for UV Index button display */
+.uv {
+  cursor: initial !important;
+}
+
+/* Centers weather icons in 5-day cards */
+#daily-forecast #conditions img {
+  display: block;
+}
+
+/* Ensures input block stays centered within card */
+#search-form input {
+  width: 100%;
+}
+
+@media only screen and (max-width: 530px) {
+  /* Reducing h1 text size for mobile screens */
+  .navbar .center {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  /* Shifts icons in h1 onto own lines */
+  .navbar .center i {
+    display: block;
+    line-height: 1.25;
+  }
+}
