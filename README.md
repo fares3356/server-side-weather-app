@@ -17,9 +17,6 @@ Weather Dashboard, a developer created single-window application to display curr
 - [OpenWeather API](https://openweathermap.org/api)
 - [Bootstrap](https://getbootstrap.com/)
 
-## Live Application
-
-https://weather.stephentechblog.com
 
 ## License
 
